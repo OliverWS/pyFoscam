@@ -5,7 +5,7 @@ Simple python library for controlling Foscam FI9826W
 
 Example
 ===
-'''Python
+'''python
 from foscam import *
 
 mycam = Foscam("http://10.0.1.4:88",user="admin",password="***REMOVED***")
