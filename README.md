@@ -5,7 +5,8 @@ Simple python library for controlling Foscam FI9826W
 
 Example
 ===
-'''python
+
+```python
 from foscam import *
 
 mycam = Foscam("http://10.0.1.4:88",user="admin",password="***REMOVED***")
@@ -35,5 +36,6 @@ mycam.schedule
 Out[494]: 
 [{'day': 'monday', 'end': '6:30', 'start': '2:30'},
  {'day': 'sunday', 'end': '23:30', 'start': '22:00'}]
-'''
+
+```
 
