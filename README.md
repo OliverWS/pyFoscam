@@ -9,7 +9,7 @@ Example
 ```python
 from foscam import *
 
-mycam = Foscam("http://10.0.1.4:88",user="admin",password="***REMOVED***")
+mycam = Foscam("http://10.0.1.4:88",user="admin",password="********")
 
 mycam.pan("left",0.5)
 
